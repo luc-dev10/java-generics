@@ -2,19 +2,19 @@ package com.generic.demo;
 
 public class Car {
 
-	private String type;
+	private String make;
 
-	public Car(String type) {
+	public Car(String make) {
 		super();
-		this.type = type;
+		this.make = make;
 	}
 
 	public String getType() {
-		return type;
+		return make;
 	}
 
-	public void setType(String type) {
-		this.type = type;
+	public void setType(String make) {
+		this.make = make;
 	}
 
 }
